@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Unbounded:wght@400;500&family=Work+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+ width: 100vw;
+ height: 200vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: darkslateblue;
+ font-family: 'Neucha', cursive;
+}
+
+.heading {
+ text-transform: uppercase;
+ font-size: 40px;
+ margin: 30px 0;
+ color: white;
+ z-index: 1;
+ text-align: center; 
+}
+
+.heading:hover  {
+   color: burlywood;
+}
+
+@media (max-width: 800px) {
+    .heading {
+      margin: 15px 0;
+      font-size: 35px;
+    }
+}
